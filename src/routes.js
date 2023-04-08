@@ -1,27 +1,24 @@
-const express = require("express");
-const routes = express.Router();
-//const authMiddleware = require("../src/middleware/auth.middleware");
+// const express = require("express");
+// const routes = express.Router();
+// const authMiddleware = require("../src/middleware/auth.middleware");
 
-// Controllers
-const UserController = require("./controllers/UserController");
-const ProductController = require("./controllers/ProductController");
+// // Controllers
+// const UserController = require("./controllers/UserController");
+// const LeagueController = require("./controllers/LeagueController");
 
-// User routes
-routes.post("/register", UserController.register);
-routes.get("/lojainfo/:user_id", UserController.lojainfo);
-routes.post("/login", UserController.login);
-routes.put("/editarPerfil/:user_id", UserController.editarPerfil);
-routes.post("/validateemail", UserController.validateEmail);
+// // User routes
+// routes.post("/login", UserController.login);
+// routes.post("/register", UserController.register);
+// routes.post("/resetPassword", UserController.resetPassword);
+// routes.get("/getInfo/:user_id", UserController.getInfo);
+// routes.put("/editUser/:user_id", UserController.editUser);
+// routes.delete("/deleteUser/:product_id", UserController.deleteUser);
 
-// Product routes
-routes.post("/addProduct", ProductController.addProduct);
-routes.get("/getProduct/:product_id", ProductController.getProduct);
-routes.post("/getAllProducts/:user_id", ProductController.getAllProducts);
-routes.get(
-  "/getOthersProducts/:user_id/:product_id",
-  ProductController.getOthersProducts
-);
-routes.put("/editProduct/:product_id", ProductController.editProduct);
-routes.delete("/deleteProduct/:product_id", ProductController.deleteProduct);
+// // Product routes
+// routes.post("/createLeague", LeagueController.createLeague);
+// routes.get("/getLeague/:product_id", LeagueController.getLeague);
+// routes.post("/getAllLeagues/:user_id", LeagueController.getAllLeagues);
+// routes.put("/editLeague/:product_id", LeagueController.editLeague);
+// routes.delete("/deleteProduct/:product_id", LeagueController.deleteProduct);
 
-module.exports = routes;
+// module.exports = routes;

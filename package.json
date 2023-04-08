@@ -4,7 +4,7 @@
   "description": "Nessa primeira fase, o usuário poderá criar uma liga clássica definindo um número específico de rodadas. O usuário criador da liga poderá adicionar e remover jogadores durante todo andamento das rodadas, podendo também definir nome e descrição da liga, além de pode excluir a mesma. O usuário poderá criar uma conta, redefinir senha e excluir sua própria conta.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
