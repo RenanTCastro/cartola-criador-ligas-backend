@@ -29,5 +29,4 @@ https://github.com/RenanTCastro/cartola-criador-ligas-frontend
 * Editar liga
 * Exibir liga
 * Excluir liga
-* Remover times
-* Adicionar times
+
