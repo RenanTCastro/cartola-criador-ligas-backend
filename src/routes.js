@@ -14,10 +14,10 @@ routes.get("/getInfo/:user_id", UserController.getInfo);
 routes.delete("/deleteUser/:user_id", UserController.deleteUser);
 
 // Product routes
-// routes.post("/createLeague", LeagueController.createLeague);
-// routes.get("/getLeague/:product_id", LeagueController.getLeague);
-// routes.post("/getAllLeagues/:user_id", LeagueController.getAllLeagues);
-// routes.put("/editLeague/:product_id", LeagueController.editLeague);
-// routes.delete("/deleteProduct/:product_id", LeagueController.deleteProduct);
+routes.post("/createLeague", LeagueController.createLeague);
+routes.get("/getLeague/:league_id", LeagueController.getLeague);
+routes.get("/getAllLeagues/:user_id", LeagueController.getAllLeagues);
+routes.put("/editLeague/:league_id", LeagueController.editLeague);
+routes.delete("/deleteLeague/:league_id", LeagueController.deleteLeague);
 
 module.exports = routes;
